@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotel.css">
+    <link href="logo.jpg" rel="icon" >
+    <title>Exploring Era Hotels</title>
+</head>
+<body>
+    <fieldset class="Section_top">
+
+    </fieldset>
+    <div class="booking">
+        <h2>Book Your Stay</h2>
+        <form id="booking-form">
+            <label for="destination">Place:</label><br>
+            <input type="place" id="destinantion" placeholder="Place" required>
+            <br>
+            <br>
+            <label for="check-in">Check-In Date:</label><br>
+            <input type="date" id="check-in" required>
+            <br>
+            <br>
+            <label for="check-out">Check-Out Date:</label><br>
+            <input type="date" id="check-out" required>
+            <br>
+            <br>
+            <label for="rooms">Number of Rooms:</label><br>
+            <input type="text" placeholder="Number of Rooms" id="rooms" required>
+            <br>
+            <br>
+            <label>Category of Rooms:</label><br>
+            <select  id="rooms" name="rooms" required>
+                <option value="#">Category of Rooms</option>
+                <option value="President Suite">President Suite</option>
+                <option value="Economic">Economic</option>
+                <option value="Family Vacation">Family Vacation</option>
+                <option value="Couple Suite">Couple Suite</option>
+            </select>
+            <br>
+            <br>
+            <button style="font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-top:20px;" type="submit">Check Availability</button>
+        </form>
+    </div>   
+</body>
+</html>
